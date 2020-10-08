@@ -1,5 +1,6 @@
 
 #### 十大排序算法
+![sort](https://github.com/hgsw/Sort/blob/6f1e2c39cb85fa270478a0335f99b8eee9ae50a6/sort.png)
 
 **1 、冒泡排序（bubble sort）**
 
