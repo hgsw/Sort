@@ -214,13 +214,6 @@ public void merge(int[] arr, int start, int end) {
 
 归并排序是稳定的，归并排序的最好，最坏，平均时间复杂度均为O(nlogn)，空间复杂度O(n)+O(logn)创建临时数组保存数据的空间复杂度为O(n)，递归调用所需要的空间复杂度为递归调用次数O(logn)，总的空间复杂度为O(n)
 
-时间复杂度分析：
-
-![image-20200928174111108](C:\Users\hgsw9\AppData\Roaming\Typora\typora-user-images\image-20200928174111108.png)
-
-常见地推公式和复杂度：
-
-![image-20200928174205272](C:\Users\hgsw9\AppData\Roaming\Typora\typora-user-images\image-20200928174205272.png)
 
 **6、快速排序（quick sort）**
 
@@ -249,7 +242,7 @@ private static int pivotIndex(int[] arr,int left,int right){//[left,right]
     for(int i=left+1;i<=right;i++){
         if(arr[i]<pivot){
             j++;
-          swap(i,j);
+          swap(arr，i,j);
         }
     }
  	swap(arr,left,j);
